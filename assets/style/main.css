@@ -1,0 +1,277 @@
+:root {
+  --accent-1: #BBDEFA;
+  --accent-2: #002D51;
+  --accent-3: #A9D7CC;
+  --accent-4: #C9E8F6;
+  --shadow: 2px 2px 10px #777;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font: 1.4em;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  z-index: 4;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-middle {
+  align-items: center;
+}
+
+/* /////////////////////////// */
+
+.head-bar {
+  margin: auto;
+  height: 60px;
+  width: 96%;
+  padding: 8px 28px;
+  font-weight: bold;
+  background-color: var(--accent-1);
+  border-radius: 0 0 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* /////////////////////////// */
+
+main {
+  margin: 20px 0;
+}
+
+.main-topic {
+  width: 100%;
+}
+
+.main-topic .main-topic--topic {
+  width: 40%;
+  height: 100%;
+  font-size: 1.4em;
+  justify-content: space-between;
+  padding: 0 24px 24px 50px;
+}
+
+.main-topic--topic h1 {
+  line-height: 1.4em;
+  margin: 0;
+}
+
+.main-topic--topic p {
+  line-height: 2em;
+  font-size: 1.1em;
+  margin: 20px 0;
+}
+
+.main-topic-img {
+  width: 60%;
+}
+
+.main-topic img {
+  width: 100%;
+}
+
+.main-topic--shape {
+  width: 100%;
+}
+
+.rounded-shape {
+  height: 60px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.rs-a {
+  width: 20%;
+  margin: 0 20px 0 0;
+  background-color: var(--accent-1);
+}
+
+.rs-b {
+  width: 38%;
+}
+
+/* /////////////////////////////// */
+
+.c-article {
+  max-width: 100%;
+  height: 480px;
+  overflow: hidden;
+  background-color: var(--accent-4);
+}
+
+.c-article > div {
+  height: inherit;
+  width: inherit;
+  scroll-snap-type: y proximity;
+  overflow: scroll;
+}
+
+.c-article > div::-webkit-scrollbar {
+  display: none;
+}
+
+.c-article article {
+  scroll-snap-stop: always;
+  scroll-snap-align: center;
+  width: 100%;
+  height: inherit;
+  padding: 4%;
+  position: relative;
+}
+
+.c-article article p, .c-article article li {
+  line-height: 2em;
+  text-align: justify;
+}
+
+.c-article article p {
+  width: 70%;
+}
+
+.progress-page {
+  margin-bottom: 16px;
+  position: absolute;
+  bottom: 50%;
+  top: 50%;
+  right: 2%;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 8px;
+  background-color: #FFF;
+  cursor: pointer;
+}
+
+.target {
+  background-color: var(--accent-2);
+}
+
+.goto-btn {
+  height: 46px;
+  width: 90px;
+  padding: 0;
+  border: 4px solid var(--accent-2);
+  color: var(--accent-2);
+  border-radius: 24px;
+  background-color: transparent;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ////////////////////////////////// */
+
+.c-main-article {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.c-main-article article {
+  font-size: 1.2em;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  width: 100%;
+  padding: 0 8%;
+}
+
+.c-main-article article:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+  background: linear-gradient(rgba(200,200,200,0.1), rgba(200,200,200,0.1));
+
+}
+
+.c-main-article div {
+  width: 56%;
+}
+
+.c-main-article img {
+  height: 550px;
+  width: 560px;
+}
+
+.c-main-article article:nth-child(1) img {
+  width: 660px;
+  height: 700px;
+}
+
+.c-main-article article:nth-child(2) img {
+  width: 700px;
+}
+
+.c-main-article h1 {
+  color: var(--accent-2);
+}
+
+.c-main-article p {
+  text-align: justify;
+  line-height: 2em;
+}
+
+.c-main-article li {
+  line-height: 2em;
+}
+
+.c-main-article .flowchart {
+  width: 100%;
+}
+
+.c-main-article .flowchart img {
+  height: 900px;
+  width: 70%;
+}
+
+.c-main-article article:last-child {
+  flex-direction: row;
+  text-align: left;
+}
+
+/* ////////////// */
+
+footer {
+  margin-top: 0;
+  width: 100%;
+  background-color: var(--accent-1);
+}

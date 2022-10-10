@@ -1,0 +1,223 @@
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+    .main-topic-img {
+        width: 60%
+    }
+
+    .main-topic--topic h1 {
+        font-size: 1.2em;
+    }
+
+    .main-topic--topic p {
+        font-size: 0.8em;
+    }
+
+    .rounded-shape {
+        height: 50px;
+    }
+
+    .rs-a {
+        width: 80px;
+    }
+
+    /* ///////////// */
+
+    .c-main-article img {
+        height: 50%;
+        width: 40%;
+    }
+    .c-main-article article:nth-child(1) img {
+        width: 40%;
+    }
+    .c-main-article article:nth-child(2) img {
+        width: 40%;
+    }
+    .c-main-article article:nth-child(1) img {
+        height: 50%;
+    }
+    .c-main-article .flowchart img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    h1 {
+        font-size: 1.4em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    /* ////////////// */
+    .main-topic {
+        flex-direction: column;
+    }
+    .main-topic .main-topic--topic {
+        width: 100%;
+    }
+    .main-topic-img {
+        width: 100%;
+    }
+
+    .main-topic p {
+        font-size: 0.8em;
+    }
+    
+    .rounded-shape {
+        height: 36px;
+    }
+
+    .rs-a {
+        width: 12%;
+    }
+
+    .rs-b {
+        width: 20%;
+    }
+
+    /* ////////////// */
+    .c-article {
+        height: 380px;
+    }
+    .goto-btn {
+        height: 36px;
+        width: 80px;
+        font-size: 1em;
+    }
+    .progress-page {
+        top: 86%;
+    }
+    /* ////////////// */
+    .c-main-article div {
+        width: 100%;
+    }
+    .c-article article p {
+        width: 100%;
+    }
+    /* ////////////// */
+    .c-main-article article:nth-child(even) {
+        flex-direction: row;
+    }
+    .c-main-article article {
+        width: 100%;
+    }
+    .c-main-article article h1 {
+        text-align: left;
+    }   
+    .c-main-article p, .c-main-article h1 {
+        width: 100%;
+    }
+    .c-main-article article img {
+        display: none;
+    }
+    .c-main-article .flowchart img {
+        display: block;
+        height: 100vh;
+        width: 90%;
+    }
+    .c-main-article .flowchart h1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 377px) and (max-width: 426px) {
+    h1 {
+        font-size: 1.3em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    p, li {
+        font-size: 0.8em;
+    }
+    header {
+        display: none;
+    }
+    /* ////////////// */
+    .main-topic--topic p {
+        font-size: 0.7em;
+    }
+    .main-topic--topic h1 {
+        font-size: 1em;
+    }
+    .rs-a {
+        width: 16%;
+    }
+    .rs-b {
+        width: 30%;
+    }
+    /* ////////////// */
+    .c-article {
+        height: 340px;
+    }
+    /* ///////////////////// */
+    .c-main-article .flowchart img {
+        display: block;
+        height: 84vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    h1 {
+        font-size: 1.1em;
+    }
+    h2 {
+        font-size: 0.9em;
+    }
+    p, li {
+        font-size: 0.8em;
+    }
+    header {
+        display: none;
+    }
+    /* ////////////// */
+    .main-topic--topic p {
+        font-size: 0.8em;
+    }
+    .rs-a {
+        width: 20%;
+    }
+    .rs-b {
+        width: 40%;
+    }
+    /* ////////////// */
+
+    .c-article {
+        height: 300px;
+    }
+    /* ////////////// */
+    .c-main-article .flowchart img {
+        display: block;
+        height: 80vh;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .main-topic--topic h1 {
+        font-size: 0.8em;
+    }
+    .main-topic--topic p {
+        font-size: 0.6em;
+    }
+    .rs-a {
+        width: 20%;
+    }
+    .rs-b {
+        width: 40%;
+    }
+    .progress-page {
+        flex-direction: row;
+        top: 92%;
+    }
+    .goto-btn, .c-article > div > a {
+        display: none;
+    }
+    .c-main-article .flowchart img {
+        display: block;
+        height: 60vh;
+        width: 90%;
+    }
+}
