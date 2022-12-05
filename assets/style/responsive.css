@@ -94,14 +94,12 @@
     }
     .c-article article p {
         width: 100%;
-        font-size: 11px;
     }
     /* ////////////// */
     .c-main-article article:nth-child(even) {
         flex-direction: row;
     }
     .c-main-article article {
-        font-size: 11px;
         width: 100%;
     }
     .c-main-article article h1 {
