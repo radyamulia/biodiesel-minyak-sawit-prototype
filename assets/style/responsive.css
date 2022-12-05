@@ -101,6 +101,7 @@
         flex-direction: row;
     }
     .c-main-article article {
+        font-size: 11px;
         width: 100%;
     }
     .c-main-article article h1 {
