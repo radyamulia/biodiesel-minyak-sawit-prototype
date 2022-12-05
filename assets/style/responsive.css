@@ -94,6 +94,7 @@
     }
     .c-article article p {
         width: 100%;
+        font-size: 11px;
     }
     /* ////////////// */
     .c-main-article article:nth-child(even) {
